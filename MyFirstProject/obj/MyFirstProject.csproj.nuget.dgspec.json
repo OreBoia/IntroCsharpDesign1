@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Studente\\Desktop\\IntroCsharp\\MyFirstProject\\MyFirstProject.csproj": {}
+    "C:\\Users\\Studente\\IntroCsharpDesign1\\MyFirstProject\\MyFirstProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Studente\\Desktop\\IntroCsharp\\MyFirstProject\\MyFirstProject.csproj": {
+    "C:\\Users\\Studente\\IntroCsharpDesign1\\MyFirstProject\\MyFirstProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Studente\\Desktop\\IntroCsharp\\MyFirstProject\\MyFirstProject.csproj",
+        "projectUniqueName": "C:\\Users\\Studente\\IntroCsharpDesign1\\MyFirstProject\\MyFirstProject.csproj",
         "projectName": "MyFirstProject",
-        "projectPath": "C:\\Users\\Studente\\Desktop\\IntroCsharp\\MyFirstProject\\MyFirstProject.csproj",
+        "projectPath": "C:\\Users\\Studente\\IntroCsharpDesign1\\MyFirstProject\\MyFirstProject.csproj",
         "packagesPath": "C:\\Users\\Studente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Studente\\Desktop\\IntroCsharp\\MyFirstProject\\obj\\",
+        "outputPath": "C:\\Users\\Studente\\IntroCsharpDesign1\\MyFirstProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Studente\\AppData\\Roaming\\NuGet\\NuGet.Config"
