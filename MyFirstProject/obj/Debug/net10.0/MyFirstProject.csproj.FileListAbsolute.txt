@@ -1,0 +1,14 @@
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\bin\Debug\net10.0\MyFirstProject.exe
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\bin\Debug\net10.0\MyFirstProject.deps.json
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\bin\Debug\net10.0\MyFirstProject.runtimeconfig.json
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\bin\Debug\net10.0\MyFirstProject.dll
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\bin\Debug\net10.0\MyFirstProject.pdb
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\obj\Debug\net10.0\MyFirstProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\obj\Debug\net10.0\MyFirstProject.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\obj\Debug\net10.0\MyFirstProject.AssemblyInfo.cs
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\obj\Debug\net10.0\MyFirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\obj\Debug\net10.0\MyFirstProject.dll
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\obj\Debug\net10.0\refint\MyFirstProject.dll
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\obj\Debug\net10.0\MyFirstProject.pdb
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\obj\Debug\net10.0\MyFirstProject.genruntimeconfig.cache
+C:\Users\Studente\Desktop\IntroCsharp\MyFirstProject\obj\Debug\net10.0\ref\MyFirstProject.dll
