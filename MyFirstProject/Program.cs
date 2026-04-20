@@ -15,12 +15,26 @@
     */
     public static void Main(string[] args)
     {
-        //Esempio Console.Writline()
+        // ReadLineExamples();
+        VariableOperationsExamples();
+    }
+
+    /// <summary>
+    /// Questa funzione esegue del codice
+    /// </summary>
+    public static void MyMethod()
+    {
+        
+    }
+
+    public static void VariableExamples()
+    {
+        //Esempio Console.WritLine()
         Console.WriteLine("Hello, World!");
         //Esempio Richiamo metodo
         MyMethod();
 
-        //Esempio stampa varibili
+        //Esempio stampa variabili
         age = 123;
         Console.WriteLine("age: " + age);
         Console.WriteLine("Age: " + Age);
@@ -40,11 +54,81 @@
         Console.WriteLine($"num3 {num3} --- num4 {num4}");
     }
 
-    /// <summary>
-    /// Questa funzione esegue del codice
-    /// </summary>
-    public static void MyMethod()
+    public static void ReadLineExamples()
     {
+        // Console.Write($"Ciao, inserisci il tuo nome e cognome: ");
+        
+        // Dichiarazione e poi assegnazione tramite lettura 
+        // string name;
+        // name = Console.ReadLine();
+
+        // Dichiarazione e Lettura 
+        // string? name = Console.ReadLine(); //"123"
+        // string? surname = Console.ReadLine();
+
+        // Console.WriteLine($"il tuo nome è {name + surname}");
+
+        //Conversione string to int (int.Parse())
+        Console.Write("Inserisci n1: ");
+        string? n1 = Console.ReadLine();
+        
+        Console.Write("inserisci n2: ");
+        string? n2 = Console.ReadLine();
+        
+        int number1 = int.Parse(n1);
+        int number2 = int.Parse(n2);
+
+        Console.WriteLine($"Somma number1 + number2 = {number1 + number2}");
+    }
+
+    public static void VariableOperationsExamples()
+    {
+        Console.WriteLine($"Inserisci 2 numeri");
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        
+        // Console.WriteLine($"\n---- Operazioni Aritmetiche\n");
+        int sum = a + b;
+        // Console.WriteLine($"Somma di a e b = {sum}");
+        // int diff = a - b;
+        // Console.WriteLine($"Sottrazione di a e b = {diff}");
+        // double div = a / b;
+        // Console.WriteLine($"Divisione di a e b = {div}");
+        // int prod = a * b;
+        // Console.WriteLine($"Prodotto di a e b = {prod}");
+        // int resto = a % b;
+        // Console.WriteLine($"Resto di a e b = {resto}");
+
+        Console.WriteLine($"\n---- Operazioni di Assegnazione\n");
+
+        sum = sum + 10;
+        Console.WriteLine($"somma + 10 = {sum}");
+        sum += 10;
+        Console.WriteLine($"somma += 10 = {sum}");
+        sum -= 10;
+        Console.WriteLine($"somma -= 10 = {sum}");
+        sum *= 2;
+        Console.WriteLine($"somma *= 2 = {sum}");
+        sum /= 2;
+        Console.WriteLine($"somma /= 2 = {sum}");
+        sum++;//sum+=1 o sum = sum + 1 
+        Console.WriteLine($"somma ++ = {sum}");
+        sum--; //sum-=1 o sum = sum - 1
+        Console.WriteLine($"somma -- = {sum}");
+
+        Console.WriteLine($"\n---- Operazioni di Comparazione\n");
+
+        Console.WriteLine($"a è UGUALE a b? {a == b}");
+        Console.WriteLine($"a è DIVERSO da b? {a != b}");
+        Console.WriteLine($"a è MINORE di b? {a < b}");
+        Console.WriteLine($"a è MINORE o UGUALE di b? {a <= b}");
+        Console.WriteLine($"a è MAGGIORE di b? {a > b}");
+        Console.WriteLine($"a è MAGGIORE o UGUALE di b? {a >= b}");
+
+        Console.WriteLine($"\n---- Operazioni Logiche\n");
+        Console.WriteLine($"AND: {a > b && a == 16 && b < a}");
+        Console.WriteLine($"OR: {a < b || a == 5}");
+        Console.WriteLine($"NOT: {!(a < 5)}");
         
     }
 }
