@@ -16,7 +16,9 @@
     public static void Main(string[] args)
     {
         // ReadLineExamples();
-        VariableOperationsExamples();
+        // VariableOperationsExamples();
+        // IfExamples();
+        IfElseExamples();
     }
 
     /// <summary>
@@ -130,5 +132,53 @@
         Console.WriteLine($"OR: {a < b || a == 5}");
         Console.WriteLine($"NOT: {!(a < 5)}");
         
+    }
+
+    public static void IfExamples()
+    {
+        Console.Write($"Inserisci primo numero: ");
+        int a = int.Parse(Console.ReadLine());
+        Console.Write($"Inserisci secondo numero: ");
+        int b = int.Parse(Console.ReadLine());
+
+        if(a < b && a > 10)
+        {
+            Console.WriteLine($"{a} è minore di {b}");
+        }
+
+        if(a > b)
+        {
+            Console.WriteLine($"{a} è maggiore di {b}");
+        }
+
+        if(!(a == b))
+        {
+            Console.WriteLine($"{a} è uguale a {b}");
+        }
+    }
+
+    public static void IfElseExamples()
+    {
+        Console.Write($"Inserisci primo numero: ");
+        int a = int.Parse(Console.ReadLine());
+        Console.Write($"Inserisci secondo numero: ");
+        int b = int.Parse(Console.ReadLine());
+
+        if(a < b)
+        {
+            Console.WriteLine($"{a} è minore di {b}");
+        }
+        else if (a > b)
+        {
+            Console.WriteLine($"{a} è maggiore di {b}");
+        }
+        else if (a != b)
+        {
+            Console.WriteLine($"{a} è diverso da {b}");
+        }
+        else
+        {
+            Console.WriteLine($"{a} è uguale a {b}");
+        }
     }
 }
