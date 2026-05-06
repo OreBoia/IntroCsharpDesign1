@@ -181,4 +181,41 @@
             Console.WriteLine($"{a} è uguale a {b}");
         }
     }
+
+    public static void SwitchExamples()
+    {
+        string giorno = "lunedì";
+
+        switch (giorno)
+        {
+            case "lunedì":
+                Console.WriteLine($"Siamo a lunedì, sono già stanco");
+                Console.WriteLine($"voglio dormire");
+                break;
+            case "Venerdì":
+                Console.WriteLine($"Finalmente siamo al weekend, posso dormire");
+                break;
+            default:
+                Console.WriteLine($"giorno errato, questo giorno non esiste: {giorno}");
+                break;
+        }
+
+        //Match Pattern
+        int numero = 10;
+        switch (numero)
+        {
+            case > 9:
+                Console.WriteLine($"Il numero {numero} è maggiore di 9");
+                break;
+            case >= 5 and < 9:
+                Console.WriteLine($"Il numero {numero} è tra 5 e 8");
+                break;
+            case < 5:
+                Console.WriteLine($"Il numero {numero} è minore di 5");
+                break;
+            default:
+                Console.WriteLine($"Numero non gestito: {numero}");
+                break;
+        }
+    }
 }
