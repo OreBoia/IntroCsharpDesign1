@@ -18,7 +18,10 @@
         // ReadLineExamples();
         // VariableOperationsExamples();
         // IfExamples();
-        IfElseExamples();
+        // IfElseExamples();
+        // SwitchExamples();
+        // WhileExample();
+        ForExamples();
     }
 
     /// <summary>
@@ -217,5 +220,96 @@
                 Console.WriteLine($"Numero non gestito: {numero}");
                 break;
         }
+    }
+
+    public static void WhileExample()
+    {
+        // int n = 0;
+        // while(n < 10)
+        // {
+        //     Console.WriteLine($"({n}) Ciclo in esecuzione");
+        //     // continua = int.Parse(Console.ReadLine()) == 0;
+        //     n++;
+        // }
+
+        // int numero = 120;
+        // while(numero < 0 || numero > 100)
+        // {
+        //     Console.WriteLine($"Inserisci un numero tra 0  e 100");
+        //     numero = int.Parse(Console.ReadLine());
+
+        //     if(numero < 0 || numero > 100)
+        //     {
+        //         Console.WriteLine($"{numero} non è nel range richiesto (0 - 100)");
+        //     }
+        // }
+
+        // int scelta = 0;
+
+        // while (true)
+        // {
+        //     Console.WriteLine($"inserisci un numero da 1 a 3");
+        //     scelta = int.Parse(Console.ReadLine());
+
+        //     Console.Write($"Inserisci numero 1: ");
+        //     int numero1 = int.Parse(Console.ReadLine());
+            
+        //     Console.Write($"Inserisci numero 2: ");
+        //     int numero2 = int.Parse(Console.ReadLine());
+            
+        //     switch (scelta)
+        //     {
+        //         case 1:
+        //             Console.WriteLine($"Faccio una somma {numero1 + numero2}");
+        //             break;
+        //         case 2:
+        //             Console.WriteLine($"Faccio una sottrazione {numero1 - numero2}");
+        //             break;
+        //         case 3:
+        //             Console.WriteLine($"Esco, ciao");
+        //             break;
+        //     }
+            
+        //     if(scelta == 3) break;
+        // }
+
+        // bool continua = false;
+        // do
+        // {
+        //     Console.WriteLine($"Do While in esecuzione");
+        //     continua = int.Parse(Console.ReadLine()) == 0;
+        // }while(continua);
+    }
+
+    public static void ForExamples()
+    {   
+        //int i = 0;
+        // for(int i = 0; i < 10; i++) //i< 10 (condizione) 
+        // {
+        //     if(i % 2 == 0) continue;
+        //     Console.WriteLine($"Iterazione numero {i}");
+        //     Console.Write($"Numero Pari o dispari ?");
+        //     if(i % 2 == 0)
+        //     {
+        //         Console.WriteLine($"{i} è pari");
+        //     }
+        //     else
+        //     {
+        //         Console.WriteLine($"{i} è dispari"); 
+        //     }
+
+        // }//i++
+
+        int nIterazioni = int.Parse(Console.ReadLine());
+
+        int somma = 0;
+        for(int i = 0; i < nIterazioni; i++)
+        {
+            int numero = int.Parse(Console.ReadLine()); //10
+            somma += numero; // 0 + 10 = 10 (somma = 10)
+            Console.WriteLine($"La somma è = {somma} a Iterazione {i}");
+        }
+
+        // Console.WriteLine($"La somma totale è = {somma}");
     }
 }
